@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: rgb(231 237 246 / 30%) !important;
+}
+
+.navbar-collapse {
+    margin-left: 4rem;
+
+
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+    margin-right: 100px;
+    float: left;
+
+}
+
+
+
+.navbar-nav {
+    padding-right: 50px;
+
+    margin-right: auto;
+
+}
+
+.nav-item:first-child {
+    background-color: rgba(56, 54, 54, 0.071);
+    border: 1px solid rgba(12, 11, 11, 0.033);
+    border-radius: 50px;
+    padding: 2px;
+    margin-left: 30px;
+}
+
+
+.navbar {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+}
+
+
+
+.nav-item {
+    font-weight: bolder;
+    font-family: "poppins", 'sans-serif';
+
+
+}
+
+a.nav-link {
+    color: rgba(51, 51, 51, 0.599);
+    font-weight: bold;
+    font-family: "poppins", 'sans-serif';
+}
+
+.nav-tabs .nav-link {
+    margin-left: 17px;
+
+}
+
+p {
+
+    font-weight: 600;
+    font-family: "poppins", 'sans-serif';
+    color: rgba(0, 0, 0, .55);
+    padding-top: 50px;
+    letter-spacing: 0px;
+
+
+}
+
+h3 {
+    font-weight: 600;
+    font-family: "poppins", 'sans-serif';
+    margin: 13px;
+    padding: 13px;
+    margin-left: -1.7rem;
+    letter-spacing: 0px;
+
+}
+
+
+
+.counter {
+
+    border: 2px solid rgba(17, 16, 16, 0.013);
+    padding: 100 px 0;
+    border-radius: 15px;
+}
+
+.card-title {
+
+    font: 600 1.5rem "poppins", 'sans-serif';
+    margin-bottom: 0rem !important;
+
+}
+
+.card-title sup {
+    top: -0.3em;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.317);
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "poppins", 'sans-serif';
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.summary-icon {
+    background-color: rgba(111, 92, 149, 0.955);
+    border: 1px solid rgba(11, 10, 10, 0.033);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(231, 237, 246);
+    margin-top: 0.4rem;
+    color: rebeccapurple;
+}
+
+.table {
+    padding-top: 15px;
+
+}
+
+
+.table thead tr {
+    line-height: 2.4rem !important;
+
+}
+
+.table thead tr th {
+    padding-left: 1rem
+}
+
+.table tbody tr {
+    line-height: 2.4rem !important;
+    font: 500 1rem "poppins", 'sans-serif';
+    letter-spacing: 1px;
+
+}
+
+.table tbody tr td {
+    padding-left: 1rem
+}
+
+
+
+
+
+.card-body {
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+
+
+
+
+.idnumber {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    font: 700 0.9rem "poppins", 'sans-serif';
+}
+
+.select-item {
+    background-color: rgba(235, 223, 223, 0.285);
+    border: 1px rgba(11, 10, 10, 0.033);
+    padding: 1px;
+
+}
+
+.container {
+    margin: 50px auto;
+    padding: 0 50px;
+    max-width: 960px;
+    height: 1px;
+}
+
+
+td {
+    padding: 4px;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+th {
+
+    color: rgba(0, 0, 0, 0.317);
+    font-size: 15px "poppins", 'sans-serif';
+
+
+}
+
+
+.container-box {
+    border: 1px solid rgba(75, 70, 70, 0.138);
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.section-box {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
+}
+
+.custom-tab-link {
+    border-bottom: 2px solid blue;
+}
+
+@media (max-width:778px) {
+    .counter .card-body {
+        font-size: 0.5rem;
+    }
+
+    .counter .card-title {
+        font-size: 0.5rem;
+    }
+}
+
+.fintory {
+    margin-left: -15px;
+}

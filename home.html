@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Data Visualisation Dashboard</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="/icons/podcast.png" width="50" height="50" class="d-inline-block align-top" alt="">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-3" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Report</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fee-management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Integrations</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section class="section-box">
+
+
+        <h3 class="mt-4">
+            <img src="./images/fintorylogo-removebg-preview.png" width="50" height="50">
+            <span class="fintory">Fintory</span>
+        </h3>
+        <hr style="opacity: 0.1">
+        <p>SUMMARY</p>
+
+        <div class="row container-wrapper ">
+
+            <div class="col-sm-3">
+                <div class="counter">
+                    <div class="card-body">
+                        <div class="card-text d-flex gap-3 align-items-center">
+                            <i class="fa-regular fa-circle-up align-self-start summary-icon"></i>
+                            <div>
+                                <p style="margin: 0px;padding: 0px;">Deposites</p>
+                                <h5 class="card-title"><sup>$</sup>34,380.19</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="counter">
+                    <div class="card-body">
+                        <div class="card-text d-flex gap-3 align-items-center">
+                            <i class="fa-regular fa-circle-up align-self-start summary-icon"></i>
+                            <div>
+                                <p style="margin: 0px;padding: 0px;">Disbursements</p>
+                                <h5 class="card-title"><sup>$</sup>12,426.02</h5>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="counter">
+                    <div class="card-body">
+                        <div class="card-text d-flex gap-3 align-items-center">
+                            <i class="fa-regular fa-circle-up align-self-start summary-icon"></i>
+                            <div>
+                                <p style="margin: 0px;padding: 0px;">Average deposite</p>
+                                <h5 class="card-title"><sup>$</sup>1,380.12</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <p>RECENT TRANSACTIONS</p>
+            <section class="container-box p-0">
+
+                <div class="sm-5">
+
+                    <ul class="nav nav-tabs">
+                        <li class=" tab-item">
+                            <a class="nav-link custom-tab-link " aria-current="page" href="#"
+                                style="border-bottom: 2px solid blue;">Deposits</a>
+                        </li>
+                        <li class="tab-item">
+                            <a class="nav-link " href="#">Disbursements</a>
+                        </li>
+
+                    </ul>
+
+                    <table class="table table-wrapper">
+                        <thead>
+                            <tr>
+                                <th>Transaction date
+                                    <i class="fa-solid fa-caret-up"></i>
+
+                                </th>
+                                <th>Type
+                                    <i class="fa-solid fa-caret-up"></i>
+
+                                </th>
+
+                                <th>Reciever country
+                                    <i class="fa-solid fa-caret-up"></i>
+
+
+                                </th>
+                                <th>Send amount
+                                    <i class="fa-solid fa-caret-up"></i>
+
+
+                                </th>
+                                <th>Fee
+                                    <i class="fa-solid fa-caret-up"></i>
+
+
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>23/05/23 MON,3 PM</td>
+                                <td class="type-data"><span class="idnumber">12345678NY</span></td>
+                                <td> <img src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-round-250.png"
+                                        width="25" height="25" class="me-2"></span>
+                                    United Kingdom
+                                </td>
+                                <td>$4567.9</td>
+                                <td>$2</td>
+
+                            </tr>
+                            <tr>
+                                <td>23/05/23 MON,3 PM</td>
+                                <td class="type-data"><span class="idnumber">12345678NY</span></td>
+                                <td> <img src="https://cdn.countryflags.com/thumbs/india/flag-round-250.png" width="25"
+                                        height="25" class="me-2"></span>
+                                    India
+                                </td>
+                                <td>$4567.9</td>
+                                <td>$2</td>
+                            </tr>
+                            <tr>
+                                <td>23/05/23 MON,3 PM</td>
+                                <td class="type-data"><span class="idnumber">12345678NY</span></td>
+                                <td> <img src="https://cdn.countryflags.com/thumbs/nepal/flag-round-250.png" width="25"
+                                        height="25"></span>
+                                    Nepal
+                                </td>
+                                <td>$4567.9</td>
+                                <td>$2</td>
+
+
+                            </tr>
+                            <tr>
+                                <td>23/05/23 MON,3 PM</td>
+                                <td class="type-data"><span class="idnumber">12345678NY</span></td>
+
+                                <td> <img src=https://cdn.countryflags.com/thumbs/germany/flag-round-250.png width="25"
+                                        height="25" class="me-2"></span>
+                                    Germany
+                                </td>
+                                <td>$4567.9</td>
+                                <td>$2</td>
+
+                            </tr>
+                        </tbody>
+                </div>
+            </section>
+
+            </table>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
